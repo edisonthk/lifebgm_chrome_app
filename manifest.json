@@ -1,0 +1,17 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "permissions": [
+      "serial"
+   ],
+   "icons": {
+      "128": "hr_sensor_icon128.png",
+      "16": "hr_sensor_icon16.png",
+      "48": "hr_sensor_icon48.png"
+   },
+   "name": "Simple Serial Apps",
+   "version": "0.1"
+}
