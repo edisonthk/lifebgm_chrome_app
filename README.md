@@ -1,6 +1,6 @@
-Low-Energy Heart Rate Sensor
+ライフBGM
 ============================
 
-This sample demonstrates using the chrome.bluetoothLowEnergy API to communicate
-with the Generic Attribute Profile (GATT) based Heart Rate Service on a
-Bluetooth Low Energy heart rate sensor.
+### データスタイル
+
+人感(1/0),明るさ(1/0),温度(25.0)
