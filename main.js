@@ -37,8 +37,12 @@ function onReceive(receiveInfo) {
 
 };
 
-function addClass(elem,className){if(uclass.exists(elem,className)){return true;}elem.className += ' '+className;},
-function removeClass(elem,className){var c = elem.className;var p = new RegExp('(^| )'+className+'( |$)');c = c.replace(p,' ').replace(/  /g,' ');elem.className = c;}
+function addClass(elem,className){
+  if(uclass.exists(elem,className)){return true;}elem.className += ' '+className;
+}
+function removeClass(elem,className){
+  var c = elem.className;var p = new RegExp('(^| )'+className+'( |$)');c = c.replace(p,' ').replace(/  /g,' ');elem.className = c;
+}
 
 
 function onError(errorInfo) {
