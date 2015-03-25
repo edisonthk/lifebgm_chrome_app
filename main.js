@@ -89,7 +89,7 @@ function initialTimer() {
         
         timer.innerHTML = hours + ":" + minutes;
         suffix_ele.innerHTML = suffix;
-        date_ele.innerHTML = currentTime.getFullYear()+"年"+pad(currentTime.getMonth(),2)+"月"+pad(currentTime.getDay(),2)+"日";
+        date_ele.innerHTML = currentTime.getFullYear()+"年"+pad(currentTime.getMonth() + 1, 2)+"月"+pad(currentTime.getDay(),2)+"日";
 
   },1000);
 
