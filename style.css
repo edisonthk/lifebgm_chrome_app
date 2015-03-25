@@ -60,10 +60,10 @@ section.background{
   margin-right: 15px;
 }
 .monospace{
-  font-family:"PT Mono","IPAexƒSƒVƒbƒN","IPAƒSƒVƒbƒN",'Lucida Grande','Hiragino Kaku Gothic ProN', 'ƒqƒ‰ƒMƒmŠpƒS ProN W3',Meiryo,ƒƒCƒŠƒI, sans-serif;
+	font-family:"PT Mono","IPAexゴシック","IPAゴシック",'Lucida Grande','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',Meiryo,メイリオ, sans-serif;
 }
 .gosick{
-  font-family:"IPAexƒSƒVƒbƒN","IPAƒSƒVƒbƒN","ŸàƒSƒVƒbƒN", 'Lucida Grande','Hiragino Kaku Gothic ProN', 'ƒqƒ‰ƒMƒmŠpƒS ProN W3',Meiryo,ƒƒCƒŠƒI, sans-serif;
+	font-family:"IPAexゴシック","IPAゴシック","游ゴシック", 'Lucida Grande','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',Meiryo,メイリオ, sans-serif;
 }
 .pic img{
   width: 50px;
@@ -107,7 +107,7 @@ section.background{
   -o-flex-direction: row;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 .container3{
